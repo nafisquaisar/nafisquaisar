@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" role="img" aria-labelledby="title desc">
+  <title id="title">Nafis Quaisar profile footer</title>
+  <desc id="desc">A minimal burgundy wave with a fine glowing line.</desc>
+  <defs>
+    <linearGradient id="footer-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="50%" stop-color="#451126"/>
+      <stop offset="100%" stop-color="#10070C"/>
+    </linearGradient>
+    <linearGradient id="footer-line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#E5B5C7"/>
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 12 C180 80 300 3 480 28 S800 86 960 35 S1110 14 1200 32 V96 H0Z" fill="url(#footer-bg)"/>
+  <path d="M0 12 C180 80 300 3 480 28 S800 86 960 35 S1110 14 1200 32" fill="none" stroke="url(#footer-line)" stroke-width="2"/>
+  <path d="M100 69 H360 M840 69 H1100" stroke="#C77B9B" stroke-opacity="0.35" stroke-width="1"/>
+  <circle cx="600" cy="60" r="4" fill="#E5B5C7"/>
+  <circle cx="600" cy="60" r="9" fill="none" stroke="#C77B9B" stroke-opacity="0.6"/>
+</svg>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Nafis Quaisar - Android Developer</title>
+  <desc id="desc">A burgundy developer banner with an animated glow, technical grid, and decorative code paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="52%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#451126"/>
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="48%" stop-color="#C77B9B" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#E5B5C7" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;0.4;1" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1.4;2" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#E5B5C7" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="orb">
+      <stop offset="0%" stop-color="#C77B9B" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#C77B9B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#grid)"/>
+  <circle cx="980" cy="140" r="245" fill="url(#orb)"/>
+  <circle cx="980" cy="140" r="150" fill="none" stroke="#C77B9B" stroke-opacity="0.26"/>
+  <circle cx="980" cy="140" r="190" fill="none" stroke="#C77B9B" stroke-opacity="0.16" stroke-dasharray="4 12">
+    <animateTransform attributeName="transform" type="rotate" from="0 980 140" to="360 980 140" dur="70s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M720 32 C850 110 830 220 1060 282 S1150 220 1200 232" fill="none" stroke="url(#light)" stroke-width="2" opacity="0.8"/>
+  <path d="M690 62 C825 135 885 188 1100 180 S1160 150 1200 162" fill="none" stroke="#C77B9B" stroke-opacity="0.2" stroke-width="1.5"/>
+  <path d="M62 260 H410 Q430 260 442 247 L465 224 H540" fill="none" stroke="#C77B9B" stroke-opacity="0.55" stroke-width="1.5"/>
+  <circle cx="540" cy="224" r="4" fill="#E5B5C7" filter="url(#glow)"/>
+  <rect x="64" y="52" width="6" height="28" rx="3" fill="#C77B9B"/>
+  <text x="90" y="72" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="4" fill="#E5B5C7">ANDROID DEVELOPER  /  SOFTWARE ENGINEER</text>
+  <text x="62" y="158" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="58" fill="#F8F0F3">Nafis Quaisar</text>
+  <text x="66" y="202" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#E5B5C7">Building practical mobile experiences with Kotlin and Java.</text>
+  <path d="M66 226 H290" stroke="#C77B9B" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="0 260;220 40;0 260" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <text x="66" y="292" font-family="Consolas, monospace" font-size="13" fill="#C77B9B" opacity="0.85">&lt;build /&gt;  ·  &lt;learn /&gt;  ·  &lt;ship /&gt;</text>
+  <rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#C77B9B" stroke-opacity="0.34"/>
+</svg>
